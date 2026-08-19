@@ -5,6 +5,7 @@ Documentation, technical notes, and reference guides built while completing the 
 
 ## Index
 * [Search Skills](./01-intro-to-cyber/search-skills.md)
+* [Windows Fundamentals](./01-intro-to-cyber/windows-fundamentals.md)
 * [Linux Fundamentals](./02-linux-fundamentals.md)
 
 ## Goals
