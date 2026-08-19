@@ -69,6 +69,24 @@ ps - provide a list of the running processes
 
 ps aux - to see list of processes running from other users and those that don't run from a session
 
+top - gives you real-time statistics about the processes running on your system
+
+kill - kill a command, or end it (ex. kill 1337)
+
+sigterm - kill the process, but allow it to do some cleanup tasks beforehand
+
+sigkill - kill the process - doesn't do any cleanup after the fact
+
+sigstop - stop/suspend a process
+
+systemd - when a system boots and initializes, systemd is one of the first that initializes
+
+systemctl [option] [service] - this command allows us to interact with the systemd process/daemon and tells services to start manually (ex. systemct1 start apache2) Can do five options: start, stop, enable, disable, status
+
+cat /proc/<PID>/cmdline | tr '\0' ' ' - to view a single command line from running processes replace <PID> with the process ID# 
+
+fg - bring a background process to the foreground
+
 ### Extra
 nano - launches nano. Use nano to open or create files. (ex. nano myfile) Can type text directly into file through nano
 
